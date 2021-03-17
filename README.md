@@ -1,4 +1,4 @@
-# GluCoAndTrack
+# GluAndCoTrack
 
 ## Summary
 **GluCoAndTrack** is a program for storing and tracking glucose information as well as tracking the amount of injected insulin. With it you can also store information on what you ate and track your blood pressure.
