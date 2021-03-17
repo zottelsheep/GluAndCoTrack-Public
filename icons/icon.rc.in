@@ -1,0 +1,21 @@
+exe_icon ICON "icon.ico"
+1 VERSIONINFO
+FILEVERSION     @PROJECT_VERSION_MAJOR@,@PROJECT_VERSION_MINOR@,0,0
+PRODUCTVERSION  @PROJECT_VERSION_MAJOR@,@PROJECT_VERSION_MINOR@,0,0
+BEGIN
+  BLOCK "StringFileInfo"
+  BEGIN
+    BLOCK "040704E4"
+    BEGIN
+      VALUE "FileDescription", "Eine App um Blutzucker und andere Vitalwerte zu tracken"
+      VALUE "FileVersion", "@PROJECT_VERSION_MAJOR@.@PROJECT_VERSION_MINOR@"
+      VALUE "OriginalFilename", "@PROJECT_NAME@.exe"
+      VALUE "ProductName", "Glu&co Track"
+      VALUE "ProductVersion", "@PROJECT_VERSION_MAJOR@.@PROJECT_VERSION_MINOR@"
+    END
+  END
+	BLOCK "VarFileInfo"
+  	BEGIN
+	  VALUE "Translation", 0x0407, 1252
+	END
+END

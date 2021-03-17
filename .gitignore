@@ -1,0 +1,42 @@
+
+# Eclipse
+.autotools
+.cproject
+.project
+.settings/
+Debug/
+Release/
+
+# PPA Build (ubuntu)
+ppa-build
+
+# CMake
+build/
+desktop/desktop_install.sh
+
+# NetBeans
+nbproject/
+
+# Visual Studio Code
+.vscode/
+*/.vscode/
+
+# CLion
+.idea
+cmake-build-*
+
+# API Documentation
+doc/html
+doc/latex
+
+src/view/.DS_Store
+src/view/background/.DS_Store
+
+# Flatpak
+repo/
+flatpak-build/
+.flatpak-builder/
+*.flatpak
+
+# Lua
+lua-*
